@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Shmik0/frontend-project-lvl1#readme",
   "dependencies": {
+    "brain-even": "^1.0.0",
+    "brain-games": "^1.1.5",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
