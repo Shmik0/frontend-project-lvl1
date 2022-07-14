@@ -14,7 +14,12 @@ const evenOrOdd = () => {
     const number = getRandomNum(100);
     console.log(`Question: ${number}`);
     const answer = readlineSync.question('Your answer: ');
-    const result = number % 2 === 0 ? 'yes' : 'no';
+    let result;
+    if (number % 2 === 0) {
+      result = 'yes';
+    } else {
+      result = 'no';
+    }
     if (result === answer) {
       console.log('Correct!');
     } else {
