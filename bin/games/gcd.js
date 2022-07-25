@@ -6,17 +6,17 @@ const gcdTask = () => {
   const number2 = getRandomValue(100);
   const question = `${number1} ${number2}`;
 
-  const minNumber = (number1 <= number2) ? number1 : number2;
-  const maxNumber = (number1 > number2) ? number1 : number2;
-
   let result = 0;
-  for (let i = 1; i <= minNumber / 2; i += 1) {
-    if (minNumber % i === 0 && maxNumber % i === 0) {
+  for (let i = 1; i <= number1 / 2; i += 1) {
+    if (number1 % i === 0 && number2 % i === 0) {
       result = i;
     }
   }
-  if (maxNumber % minNumber === 0) {
-    result = minNumber;
+  if (number2 % number1 === 0) {
+    result = number1;
+  }
+  if (number1 % number2 === 0) {
+    result = number2;
   }
   return [question, result];
 };
