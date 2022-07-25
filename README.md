@@ -3,3 +3,4 @@
 <a href="https://codeclimate.com/github/Shmik0/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/cdf814afe1f6e1367949/maintainability" /></a>
 [![asciicast](https://asciinema.org/a/JCRAFr7S73aKzNPYM45hDp0VZ.svg)](https://asciinema.org/a/JCRAFr7S73aKzNPYM45hDp0VZ)
 [![asciicast](https://asciinema.org/a/uoeQUldb1yhTuXkQ0xMEYbZAS.svg)](https://asciinema.org/a/uoeQUldb1yhTuXkQ0xMEYbZAS)
+[![asciicast](https://asciinema.org/a/GzeMT2wrsR66i3NyANGyQywu4.svg)](https://asciinema.org/a/GzeMT2wrsR66i3NyANGyQywu4)
