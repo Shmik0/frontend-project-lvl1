@@ -1,5 +1,5 @@
 {
-  "name": "@shmiko/code",
+  "name": "@hexlet/code",
   "version": "1.0.1",
   "type": "module",
   "bin": {
